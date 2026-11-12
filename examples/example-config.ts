@@ -1,5 +1,5 @@
 /**
- * Synthetic configuration for demos and tests. Carriers, prices, boxes and products
+ * Sample configuration for demos and tests. Carriers, prices, boxes and products
  * are invented; they only mimic the shape of a real Mexican e-commerce operation.
  */
 import type { EngineConfig, RateEntry, ZoneEntry } from '../src';
