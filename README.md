@@ -114,7 +114,8 @@ So the subsidy can never exceed the profit set aside for it. This is checked by 
 - The gateway fee is modeled on the product price; a fee on the shipping charge itself is out of scope.
 - Rate tables are static data; live carrier APIs would plug in where `shopCarriers` reads `config.rates`.
 - Postal codes resolve by state prefix, which is enough for zone pricing but not for last-mile exclusions.
-
+- Packaging is boxes and sacks only. In practice, small soft items like a cat toy would ship in a mailer bag; a `mailer` packaging type is the natural next step.
+- Every number in the demo is sample data: carriers, rates, boxes, 30 mm padding and the 85% fill limit. To use the engine for a real store, replace `examples/example-config.ts` with your own carriers, boxes and rules.
 ## License
 
 MIT
